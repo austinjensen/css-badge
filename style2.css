@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(94, 93, 93);
+    font-family: sans-serif;
+}
+.a{  
+    background-color: red;
+    color:white;
+    border-radius:  10px 10px 0 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.b{
+    background-color: white;
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+#eb{
+    border-radius: 0 0 10px 10px;
+    color: red;
+}
+.badge-size{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ts-size{
+    height: 75px;
+}
+.m-size{
+    height: 100px;
+}
+.b-size{
+    height: 25px;
+}
+.w{
+    width: 25%;
+}
+.namesize{
+    font-size: 55px;
+}
